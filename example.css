@@ -1,0 +1,40 @@
+@import "index.css";
+
+.example-1 {
+  max-width: 600px;
+  column-count: 2;
+  text-align: justify;
+  column-gap: var(--grid-gutter-m);
+  margin-left: var(--grid-gutter-m);
+}
+
+.example-1 p {
+  margin: var(--grid-spacing-sloth) 0 0 0;
+}
+.example-1 p:first-child {
+  margin: 0;
+}
+
+.example-2 {
+  background: gray;
+  overflow: hidden;
+  width: 400px;
+  padding-left: var(--grid-gutter-m);
+  padding-bottom: var(--grid-spacing-sloth);
+  margin: var(--grid-spacing-sloth) auto;
+}
+
+.example-2 div {
+  box-sizing: border-box;
+  padding: var(--grid-spacing-sloth) var(--grid-gutter-m) 0 0;
+}
+
+.example-2 .box2,
+.example-2 .box3{
+  float: left;
+  width: 50%;
+}
+
+.example-2 > div > div {
+  min-height: 100px;
+}

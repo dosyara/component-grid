@@ -1,0 +1,21 @@
+/**
+ * Css grid variables
+ */
+
+:root {
+  --grid-gutter-xs: 0.75rem;
+  --grid-gutter-s: 1rem;
+  --grid-gutter-m: 1.25rem;
+  --grid-gutter-l: 1.5rem;
+  --grid-gutter-xl: 2rem;
+
+  --grid-spacing-mouse: 0.1em;
+  --grid-spacing-hedgehog: 0.35em;
+  --grid-spacing-rabbit: 0.714em;
+  --grid-spacing-fox: 1em;
+  --grid-spacing-sloth: 1.111em;
+  --grid-spacing-sheep: 1.45em;
+  --grid-spacing-donkey: 1.875em;
+  --grid-spacing-camel: 2.5em;
+  --grid-spacing-rhino: 3.889em;
+}
