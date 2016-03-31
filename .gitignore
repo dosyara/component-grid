@@ -1,9 +1,0 @@
-node_modules/
-*.log
-*.js
-bundle.css
-*.html
-assets/
-.DS_Store
-!karma.conf.js
-
