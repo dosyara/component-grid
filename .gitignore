@@ -41,3 +41,6 @@ Temporary Items
 lib/
 site/
 site
+.DS_Store
+*.log
+Icon
